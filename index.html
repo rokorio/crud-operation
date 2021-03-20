@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <script src="main.js"></script>
+    <table>
+        <tr>
+            <td>
+                <form action="" onSubmit="event.preventDefault();onformsubmit()" autocomplete="off">
+                    <label for="">fullname:*</label><label class="validation-error hide" id="fullnamevalidationerror">THIS FIELD IS REQUIRED!!!</label>
+                    <input type="text" name="name" id="fullname"><br>
+                    <label for="">emp code:</label>
+                    <input type="text" name="empcode" id="empcode"><br>
+                    <label for="">salary:</label>
+                    <input type="text" name="salary" id="salary"><br>
+                    <label for="">city:</label>
+                    <input type="text" name="city" id="city"><br>
+                    <div class="form-action-buttons">
+                      <input type="submit" value="submit">
+                    </div>  
+                </form>
+            </td>
+            <td>
+                <table class="list" id="employeelist">
+                   <thead>
+                    <tr>
+                        <th>FULNAME</th>
+                        <th>EMPCODE</th>
+                        <th>SALARY</th>
+                        <th>CITY</th>
+                        <th></th>
+                    </tr>
+                   </thead>
+                   <tbody>
+
+                   </tbody> 
+                </table>
+            </td>
+        </tr>
+    </table>
+  
+</body>
+</html>
